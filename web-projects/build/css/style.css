@@ -1,0 +1,47 @@
+body {
+	background:url(img/ащт.jpg);
+	background-color: ;
+	
+}
+
+h1 {
+  color: red;
+  margin-left: 20px;
+  font-size: 30px;
+}
+
+h2 {
+  color: navy;
+  font-size: 20px;
+}
+h3 {
+  color: green;
+  font-size: 10px;
+}
+
+table {
+	border: 1px solid black;
+	background:url(img/уо.jpg);
+	background-color: white;
+	background-size: 100% 100%;
+	border-collapse: collapse;
+	text-align: center;
+	font-family: 'Luminari', Fantasy;
+	font-size: 2em;
+}
+
+table th {
+	border: 1px solid black;
+	padding: 5px;	
+}
+table td {
+	border: 1px solid black;
+	padding: 5px;	
+}
+img.mainpic {
+	display: block;
+	height: 95%;
+	width: 97%;
+    margin-left: auto;
+    margin-right: auto;
+}

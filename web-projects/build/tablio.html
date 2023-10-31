@@ -1,0 +1,50 @@
+<form id="userform">
+ <h1>Форма заявки на работу в зоопарке</h1>
+ <p><i>Пожалуйста, заполните форму. Обязательные поля помечены <span style="color:
+red;">*</span></i></p>
+ <fieldset>
+  <legend>Контактная информация</legend>
+   <label for="name">Имя <span style="color: red;">*</span></label>
+   <input type="text" id="name" value="" required><br><br>
+   <label for="tel">Телефон</label>
+   <input type="tel" id="tel" value="+7"><br><br>
+   <label for="email" >Email <span style="color: red;">*</span></label>
+   <input type="email" id="email" value="" required>
+ </fieldset><br>
+ <fieldset>
+  <legend>Персональная информация</legend>
+   <label for="age">Возраст<span style="color: red;">*</span></label>
+   <input type="number" id="age" value="300" required><br><br>
+   <label for="gender">Пол</label>
+   <select id="gender">
+    <option value=""> </option>
+    <option value="female">Женщина</option>
+    <option value="male">Мужчина</option>
+   </select><br>
+   <label for="comments">Перечислите личные качества:</label>
+   <textarea id="comments"></textarea>
+ </fieldset><br>
+
+ <fieldset>
+  <legend>Выберите ваших любимых животных</legend>
+  <label for="zebra"><input id="zebra" type="checkbox"> Зебра</label>
+  <label for="cat"><input id="cat" type="checkbox"> Кошак</label>
+  <label for="anaconda"><input id="anaconda" type="checkbox"> Анаконда</label>
+  <label for="human"><input id="human" type="checkbox"> Человек</label><br><br>
+  <label for="elephant"><input id="elephant" type="checkbox"> Слон</label>
+  <label for="wildebeest"><input id="wildebeest" type="checkbox"> Антилопа</label>
+  <label for="pigeon"><input id="pigeon" type="checkbox"> Голубь</label>
+  <label for="crab"><input id="crab" type="checkbox"> Краб</label>
+ </fieldset><br><br>
+ <input type="submit" value="Отправить информацию">
+</form>
+  <form action="http://www.google.com/">
+    <input type="submit" value="Ссылка ведет на поисковик" />
+	<p><a href="#ichi">Ссылка на Якорь 1</a></p>
+	<p><a href="#ni">Ссылка на Якорь 2</a></p>
+	<p><a href="#san">Ссылка на Якорь 3</a></p>
+	<p id="ichi"><strong>Якорь 1</strong></p>
+	<p id="ni"><sup>Якорь 2</sup></p>
+	<p id="san"><sub>Якорь 3</sub></p>
+
+  </form>
